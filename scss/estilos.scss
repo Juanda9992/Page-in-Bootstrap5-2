@@ -1,9 +1,14 @@
 .imagen
 {
-    background-image: url(images\beautiful-shot-of-makeup-brush-isolated-on-black.jpg);
+    background-image: url(../images/beautiful-shot-of-makeup-brush-isolated-on-black.jpg);
+    background-position: left;
 }
 
-.btn-light
+.btn-light 
+{
+    border-radius: 40px;
+}
+.btn-dark 
 {
     border-radius: 40px;
 }
