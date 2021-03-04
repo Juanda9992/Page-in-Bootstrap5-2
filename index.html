@@ -33,35 +33,162 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-dark bg-dark">
+
+    <!--BARRA DE NAVEGACION-->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md">
 
         <div class="container">
 
-            <a href="#" class="navbar-brand">Nolan & Co</a>
+            <a href="#" class="navbar-brand ms-3">Nolan & Co</a>
+
+            <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#barraNavegacion" aria-expanded="false" aria-controls="barra-navegacion">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="barraNavegacion">
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item"><a class="nav-link">Nuestro Trabajo</a></li>
+                    <li class="nav-item"><a class="nav-link">Nuestros Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link">Compañia</a></li>
+                    <li class="nav-item"><a class="nav-link">Contacto</a></li>
+
+                </ul>
+            </div>
 
         </div>
-
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#barraNavegacion" aria-expanded="false" aria-controls="barra-navegacion">
-
-            <span class="navbar-toggler-icon"></span>
-
-        </button>
-
-        <div class="collapse navbar-collapse" id="barraNavegacion">
-
-            <ul class="navbar-nav">
-
-                <li class="nav-item"><a class="nav-link">Nuestro Trabajo</a></li>
-                <li class="nav-item"><a class="nav-link">Nuestros Servicios</a></li>
-                <li class="nav-item"><a class="nav-link">Compañia</a></li>
-                <li class="nav-item"><a class="nav-link">Contacto</a></li>
-
-            </ul>
-        </div>
-
     </nav>
 
-    <button type="button" class="btn btn-primary">Hola</button>
+    <section class="sobreNosotros">
+
+        <div class="container bg-dark text-light mt-5 py-4 ps-3 pe-5">
+        
+            <div class="row">
+
+                <div class="col-12">
+
+                    <p class="h1">Nolan & Co es una agencia de productos digitales que se especializa en estrategia y diseño.</p>
+                    <img src="images/inspiration-ideas-design-creative-thinking-word.jpg" width="70%" height="auto" class="mx-auto d-block">
+
+                    <p>
+
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, inventore iste. Expedita enim vero natus illo, inventore ea! Magnam, adipisci ex? Provident harum, ipsum maxime quae deserunt voluptatibus consectetur et. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste suscipit totam temporibus asperiores voluptates provident voluptate, corrupti quasi, a dolores doloribus. Quia sed ab iusto. Praesentium possimus maxime sint repellendus.
+
+                    </p>
+                    <button type="button" class="btn btn-light">Nuestros Servicios</button>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="nuestroTrabajo">
+
+        <div class="container bg-light text-dark">
+
+            <div class="row">
+
+                <div class="col-12 text-center">
+
+                    <p>
+
+                        Nuestros fabulosos clientes nos permiten producir trabajos de los que nos sentimos orgullosos.
+
+                    </p>
+
+                    <button type="button" class="btn btn-dark">Mira Nuestros Trabajos</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="trabajosDestacados">
+
+
+        <div class="container">
+
+
+            <div class="row">
+
+                <div class="col-12 imagen">
+
+                    <h1>Trabajos Destacados</h1>
+
+
+                    <p>Diseño y desarrollo del sitio web para un vivero boutique en Clinton Hill, Nueva York.</p>
+
+                    <button type="button" class="btn btn-light">Ver caso de estudio</button>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="aliados">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-12 bg-light">
+
+                    <h1>Con quien Hemos Trabajado</h1>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="ayudanos">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-12 bg-dark">
+
+                    <h1>Nos encantaria Trabajar contigo</h1>
+
+
+                    <button type="button" class="btn btn-light">Contactanos</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <footer class="bg-dark">
+
+        <a>Nuestro Trabajo</a>
+        <a>Nuestros Servicios</a>
+        <a>Compañia</a>
+        <a>Contacto</a>
+
+
+        <p>Hecho con Bootstrap5</p>
+
+    </footer>
 
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>
